@@ -28,6 +28,6 @@ Toda essa organização passa por um **Multiplexador (MUX) de 8 canais**, que at
 ## Como rodar o projeto
 1. Você vai precisar do simulador lógico **[Digital](https://github.com/hneemann/Digital)** instalado no seu PC (roda em Windows e Linux).
 2. Clone este repositório.
-3. Abra o arquivo principal (ex: `ALU_Main.dig`) dentro do programa.
+3. Abra o arquivo principal (`ALU_Main.dig`) dentro do programa.
 4. Dê o Play na simulação lá no topo.
 5. Coloque os valores nas entradas `A` e `B`, escolha a operação no botão de `OPCODE` e dê um pulso no botão de `Clock` para salvar o resultado no Acumulador!
