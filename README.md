@@ -4,7 +4,7 @@ Fala galera! Esse repositório guarda a minha ALU (Arithmetic Logic Unit) de 8 b
 
 A ideia aqui não foi usar "caixas pretas" ou blocos prontos que fazem a matemática por você. Cada soma, multiplicação e divisão foi construída no nível dos transistores, juntando porta lógica por porta lógica.
 
-Aqui esta o video onde eu explico o projeto: [Video Explicativo](https://drive.google.com/file/d/15fg-e287JZY6VHjWE1TchTIG7yuPIzob/view?usp=sharing)
+Aqui esta o video onde eu explico o projeto: [Video Explicativo](https://drive.google.com/file/d/15fg-e287JZY6VHjWE1TchTIG7yuPIzob/view?usp=sharing) (Eu acabei esquecendo de explicar que na divisao eu uso o B de 16 bits, mas esta bem claro, so deixando esse aviso aqui)
 
 ## O que essa ALU faz?
 Ela recebe dois números de 8 bits (A e B) e, dependendo do "canal" que você escolher no Seletor (OPCODE), ela faz uma das seguintes operações:
