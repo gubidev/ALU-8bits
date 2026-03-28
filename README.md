@@ -4,7 +4,7 @@ Fala galera! Esse repositório guarda a minha ALU (Arithmetic Logic Unit) de 8 b
 
 A ideia aqui não foi usar "caixas pretas" ou blocos prontos que fazem a matemática por você. Cada soma, multiplicação e divisão foi construída no nível dos transistores, juntando porta lógica por porta lógica.
 
-Aqui esta o video onde eu explico o projeto: [Video Explicativo](https://www.youtube.com/watch?v=pqdzxHuZreo)
+Aqui esta o video onde eu explico o projeto: [Video Explicativo](https://drive.google.com/file/d/15fg-e287JZY6VHjWE1TchTIG7yuPIzob/view?usp=sharing)
 
 ## O que essa ALU faz?
 Ela recebe dois números de 8 bits (A e B) e, dependendo do "canal" que você escolher no Seletor (OPCODE), ela faz uma das seguintes operações:
@@ -33,4 +33,4 @@ Toda essa organização passa por um **Multiplexador (MUX) de 8 canais**, que at
 3. Abra o arquivo principal (`ALU.dig`) dentro do programa.
 4. Dê o Play na simulação lá no topo.
 5. Coloque os valores nas entradas `A` e `B`, escolha a operação no botão de `OPCODE` e dê um pulso no botão de `Clock` para salvar o resultado no Acumulador!
-6. Qualquer duvida veja o [Video Explicativo](https://www.youtube.com/watch?v=pqdzxHuZreo) ou entre em contato.
+6. Qualquer duvida veja o [Video Explicativo](https://drive.google.com/file/d/15fg-e287JZY6VHjWE1TchTIG7yuPIzob/view?usp=sharing) ou entre em contato.
