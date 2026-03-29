@@ -28,7 +28,7 @@ Como a gente tá lidando com 8 bits, algumas contas (tipo multiplicar 255 x 255)
 Toda essa organização passa por um **Multiplexador (MUX) de 8 canais**, que atua como um guarda de trânsito deixando só a resposta certa passar para o painel final. No final de tudo, a resposta é salva de verdade usando um **Registrador** acionado por um pulso de Clock.
 
 ## Como rodar o projeto
-1. Você vai precisar do simulador lógico **[Digital](https://github.com/hneemann/Digital)** instalado no seu PC (roda em Windows e Linux).
+1. Você vai precisar do simulador lógico [Digital](https://github.com/hneemann/Digital) instalado no seu PC (roda em Windows e Linux).
 2. Baixe todos os arquivos `.dig` na sua pasta de documentos.
 3. Abra o arquivo principal (`ALU.dig`) dentro do programa.
 4. Dê o Play na simulação lá no topo.
